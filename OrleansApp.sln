@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansApp", "OrleansApp\OrleansApp.csproj", "{49615047-95D6-455A-82EA-79DE1D6E0CBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreManager.SiloHost", "src\StoreManager.SiloHost\StoreManager.SiloHost.csproj", "{B95545F7-424F-47BB-AEC4-E1AD27716BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreManager.Abstractions", "src\StoreManager.Abstractions\StoreManager.Abstractions.csproj", "{A54FD45A-7FF6-413C-B52C-429ABB8180EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreManager.Models", "src\StoreManager.Models\StoreManager.Models.csproj", "{2B33A2AA-A38F-469A-83D7-198D738B2952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreManager.Grains", "src\StoreManager.Grains\StoreManager.Grains.csproj", "{4531C383-7C19-4A5E-B9E0-E736C6625AEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreManager.StorageProvider", "src\StoreManager.StorageProvider\StoreManager.StorageProvider.csproj", "{7FDB1633-F611-440D-9FBD-D706EF7FE4D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{49615047-95D6-455A-82EA-79DE1D6E0CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49615047-95D6-455A-82EA-79DE1D6E0CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49615047-95D6-455A-82EA-79DE1D6E0CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49615047-95D6-455A-82EA-79DE1D6E0CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95545F7-424F-47BB-AEC4-E1AD27716BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95545F7-424F-47BB-AEC4-E1AD27716BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95545F7-424F-47BB-AEC4-E1AD27716BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95545F7-424F-47BB-AEC4-E1AD27716BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54FD45A-7FF6-413C-B52C-429ABB8180EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54FD45A-7FF6-413C-B52C-429ABB8180EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54FD45A-7FF6-413C-B52C-429ABB8180EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54FD45A-7FF6-413C-B52C-429ABB8180EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B33A2AA-A38F-469A-83D7-198D738B2952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B33A2AA-A38F-469A-83D7-198D738B2952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B33A2AA-A38F-469A-83D7-198D738B2952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B33A2AA-A38F-469A-83D7-198D738B2952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4531C383-7C19-4A5E-B9E0-E736C6625AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4531C383-7C19-4A5E-B9E0-E736C6625AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4531C383-7C19-4A5E-B9E0-E736C6625AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4531C383-7C19-4A5E-B9E0-E736C6625AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDB1633-F611-440D-9FBD-D706EF7FE4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDB1633-F611-440D-9FBD-D706EF7FE4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDB1633-F611-440D-9FBD-D706EF7FE4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDB1633-F611-440D-9FBD-D706EF7FE4D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

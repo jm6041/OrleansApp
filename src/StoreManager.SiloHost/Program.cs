@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OrleansApp
+namespace StoreManager.SiloHost
 {
     class Program
     {
